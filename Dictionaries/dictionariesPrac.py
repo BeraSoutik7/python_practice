@@ -23,3 +23,7 @@ print(dict.items())
 print(dict.get("name"))
 dict.update({"city":"Kolkata"})
 print(dict)
+
+
+
+print(dict.get("city"))

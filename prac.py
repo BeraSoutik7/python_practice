@@ -1,10 +1,19 @@
-a = list()
+a = [10,11,12,13,14,15]
+# i=0
+# while i!=len(a):
+#     if(a[i]==122):
+#         print("Found")
+#         break
+#     i+=1
+# if(i==len(a)):
+#     print("Not found")
 
-a.append(10)
-a.append(20)
-a.append (30)
+# if(12 in a):
+#     print("Found")
+# else:
+#     print("Not found")
 
-sum = 30
-for x,y in a:
-    if(x+y==sum):
-        print(x,"",y)
+if(a.count(122)==0):
+    print("Not found")
+else:
+    print("Found")
