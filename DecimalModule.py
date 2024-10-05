@@ -12,4 +12,4 @@ print(a+b)
 a = decimal.Decimal('1.1')
 b = decimal.Decimal('2.2')
 
-print(a+b)
+print()

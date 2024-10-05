@@ -18,3 +18,4 @@ a.pop(-1)
 print(a)
 print(a.count(10))
 
+

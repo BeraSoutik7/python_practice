@@ -1,5 +1,19 @@
-fact = 1
-for i in range(1,int(input("ENter number: "))+1):
-    fact*=i
-print("Factorial: ", fact)
+import sys as s
+s.setrecursionlimit(20000)
+s.set_int_max_str_digits(200000000)
+def factorial(n):
+    fact = 1
+    for i in range(1,int(input("Enter number: "))+1):
+        fact*=i
+    print("Factorial: ", fact)
+
+factorial(5)
+
+def fact_rec(n):
+    if(n==1):
+        return 1
+    else:
+        return n*fact_rec(n-1)
+    
+print(fact_rec(int(input("Eneter number:   "))))
 
